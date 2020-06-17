@@ -1,0 +1,185 @@
+/* BOX SIZING & RESET ===============================*/
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* RESPONSIVE IMAGES ================================*/
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* CUSTOM PROPERTIES ================================*/
+
+:root {
+    --main-bg-color: #;
+    --main-txt-color: #;
+    --primary-color: #8040DE;
+    --secondary-color: #FFEB38;
+    --tertiary-color: #;
+    --light-grey-color: #FAFAFA;
+    --dark-grey-color: #424242;
+
+    --container-width: 960px;
+	
+	--default-font-size: 16px;
+	--xs-font-size: 0.64rem;
+	--sm-font-size: 0.8rem;
+	--l1-font-size: 1.25rem;
+	--l2-font-size: 1.563rem;
+	--l3-font-size: 1.953rem;
+	--l4-font-size: 2.441rem;
+	--l5-font-size: 3.052rem;
+}
+
+/* MAIN STYLING =====================================*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: var(--default-font-size);
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    padding: 1rem;
+    text-align: center;
+    color: #4f288a;
+}
+
+.box-shadow {
+    box-shadow:
+        0 1.1px 2.2px rgba(0, 0, 0, 0.02),
+        0 2.7px 5.3px rgba(0, 0, 0, 0.028),
+        0 5px 10px rgba(0, 0, 0, 0.035),
+        0 8.9px 17.9px rgba(0, 0, 0, 0.042),
+        0 16.7px 33.4px rgba(0, 0, 0, 0.05),
+        0 40px 80px rgba(0, 0, 0, 0.07);
+}
+
+.purple-bg {
+    background-color: #c3a6f0;
+}
+
+.yellow-bg {
+    background-color: #c3b538;
+}
+
+.purple-text {
+    color: #4f288a;
+}
+
+.yellow-text {
+    color: #454014;
+}
+
+/*===================================================*/
+/* SECTIONS =========================================*/
+/*===================================================*/
+
+/* MAIN =============================================*/
+
+#main-section {
+    height: 100%;
+    display: flex;
+}
+
+#bg-button {
+    margin: auto;
+    font: inherit;
+    padding: 1rem var(--l2-font-size);
+    cursor: pointer;
+    background: #eeedf1;
+    outline: none;
+    border: none;
+    border-radius: var(--l2-font-size);
+    transition: all 0.2s;
+}
+
+#bg-button:hover {
+    background-color: #e2e0e7;
+}
+
+/* FOOTER ===========================================*/
+
+footer {
+    color: #eeedf1;
+    padding-top: 1rem;
+}
+
+footer a {
+    color: #4f288a;
+}
+
+/* SECTION NAME =====================================*/
+
+
+
+/* SECTION NAME =====================================*/
+
+
+
+/* SECTION NAME =====================================*/
+
+
+
+/* SECTION NAME =====================================*/
+
+
+
+/* SECTION NAME =====================================*/
+
+
+
+/* SECTION NAME =====================================*/
+
+
+
+/* SECTION NAME =====================================*/
+
+
+
+/* SECTION NAME =====================================*/
+
+
+
+/*==================================================*/
+/*==================================================*/
+/* MEDIA QUERIES - TABLET LANDSCAPE 1024px =========*/
+
+@media only screen and (max-width: 1024px) {
+    
+
+
+}
+
+/*==================================================*/
+/* MEDIA QUERIES - TABLET PORTRAIT 768px ===========*/
+
+@media only screen and (max-width: 768px) {
+    
+
+
+}
+
+/*==================================================*/
+/* MEDIA QUERIES - MOBILE 544px ====================*/
+
+@media only screen and (max-width: 544px) {
+    
+
+
+}
